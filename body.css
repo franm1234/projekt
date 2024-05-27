@@ -1,41 +1,43 @@
 #naslov{
-    margin: 30px;
-    margin-left: 100px;
+    background-color:#ffffff;
+    margin-left: 30px;
+    color:rgb(0, 0, 0);
 }
 #jahaci li {
-    display: inline; 
+  display: inline; 
 }
 #jahaci {
-    color: #000000;
-    border-bottom: 2px solid #455372;
-    margin-top: 50px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    padding: 1px;
-    padding-left: 30px;
+  color: #000;
+  border-bottom: 2px solid #455372;
+  margin-top: 50px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding: 1px;
+  padding-left: 30px;
 }
 #jahaci li a {
-    color: #000;
-    background: #d9dbe1;
-    border: 2px solid #455372;
-    padding: 3px 5px 1px 5px;
-    margin: 0px;
-    text-decoration: none;
+  color: #000;
+  background: #d9dbe1;
+  border: 2px solid #455372;
+  padding: 3px 5px 1px 5px;
+  margin: 0px;
+  text-decoration: none;
 }
 #jahaci li a:hover {
-    border-bottom-color: white;
-    background-color: #eee;
-    color: #455372;
-    }
-    #jahaci li a:active {
-    color: rgb(44, 58, 187);
+  border-bottom-color: white;
+  background-color: #eee;
+  color: #455372;
+  }
+  #jahaci li a:active {
+  color: rgb(121, 154, 247);
 }
 #aktivni {
-    color: #000;
-    background: #fff;
-    border-bottom-color: white;
+  color: #000;
+  background: #fff;
+  border-bottom-color: white;
 }
+
 :root{
     padding-bottom: 60px;
     --width: 100%;
@@ -60,16 +62,6 @@
   
   .gallery:after{
     content:'';
-  }
-  
-  .shadow{
-    position: absolute;
-    top: 500px;
-    left: 100px;
-    width: 500px;
-    height: 40px;
-    border-radius: 50%;
-    background: radial-gradient(#805d78,rgba(0,0,0,0) 70%);
   }
   
   img{
