@@ -38,6 +38,20 @@
   border-bottom-color: white;
 }
 
+p{
+  font-size: 20px;
+}
+
+#abc {
+  font-size: 20px
+}
+
+#ab {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 70px;
+}
+
 :root{
     padding-bottom: 60px;
     --width: 100%;
